@@ -1,0 +1,5 @@
+// a one-line comment
+return // a token and then a comment
+/*
+a multi-line
+comment */

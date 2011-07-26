@@ -1,0 +1,13 @@
+int main()
+{
+	int x;
+	boolean b;
+	
+	"b = 3 == 4";
+	b = 3 == 4;
+	
+	"b = x == x";
+	b = x == x;
+	
+	return 0;
+}

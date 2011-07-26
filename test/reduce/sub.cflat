@@ -1,0 +1,16 @@
+int main()
+{
+	int x;
+	boolean b;
+	
+	"x = 4 - 2";
+	x = 4 - 2;
+	
+	"x = x - x";
+	x = x - x;
+	
+	"x = x - 0";
+	x = x - 0;
+	
+	return 0;
+}

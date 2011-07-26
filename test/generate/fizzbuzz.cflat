@@ -1,0 +1,32 @@
+boolean fizzbuzz(int n);
+
+boolean is_mod(int m, int n)
+{
+	return m % n == 0;
+}
+
+boolean fizz(int n)
+{
+	return is_mod(n, 3);
+}
+
+boolean buzz(int n)
+{
+	return is_mod(n, 5);
+}
+
+int main()
+{
+	var i = 0;
+	while (++i <= 100)
+		if (fizzbuzz(i)) print "fizzbuzz";
+		else if (fizz(i)) print "fizz";
+		else if (buzz(i)) print "buzz";
+		else print i;
+	return 0;
+}
+
+boolean fizzbuzz(int n)
+{
+	return fizz(n) && buzz(n);
+}

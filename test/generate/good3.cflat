@@ -1,0 +1,16 @@
+// project euler #6
+
+int main()
+{
+    var i = 1;
+    int sum_of_sq;
+    int sq_of_sum;
+    while (i <= 100) {
+        sum_of_sq = sum_of_sq + i ^ 2;
+        sq_of_sum = sq_of_sum + i;
+        ++i;
+    }
+    sq_of_sum = sq_of_sum ^ 2;
+    print sq_of_sum - sum_of_sq;
+    return 0;
+}

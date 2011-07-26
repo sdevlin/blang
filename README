@@ -1,0 +1,13 @@
+This is a simple compiler for a toy C-like language. This is the compiler I was supposed to write for my compilers class in spring 2006. I finally got around to it on a few random weekends in 2010 and 2011.
+
+Information about the language is available here: http://www.cse.nd.edu/~dthain/courses/cse40243/fall2008/
+
+(Note that this is the course site for a more recent iteration of the class.)
+
+I've renamed my version of the language to 'blang' just in case this project is still in use. (I.e. so current students don't stumble upon it.)
+
+I've added a few modifications to the language description. My version supports type inference of variables that are initialized during declaration. This is done via the keyword 'var' a la C#.
+
+Another modification is a series of optimization passes. In particular, many constant expressions can be reduced, and some unused variables can be excised from the output assembly.
+
+The test dir contains a few test cases, but these are not close to being exhaustive. test/generate probably contains the most useful examples.

@@ -1,0 +1,21 @@
+// project euler #1
+
+int sum;
+boolean fizzbuzz(int n);
+
+int main()
+{
+    var i = 0;
+    while (++i < 1000) {
+        if (fizzbuzz(i)) {
+            sum = sum + i;
+        }
+    }
+	print sum;
+    return 0;
+}
+
+boolean fizzbuzz(int n)
+{
+    return n % 3 == 0 || n % 5 == 0;
+}

@@ -1,0 +1,16 @@
+// project euler #9
+
+int square(int x);
+
+int main()
+{
+    int a = 1;
+    int b;
+    int c;
+    //while (a 
+}
+
+int square(int x)
+{
+    return x * x;
+}

@@ -1,0 +1,35 @@
+boolean f()
+{
+	return true;
+}
+
+int main()
+{
+	boolean b;
+	
+	"b = true && false";
+	b = true && false;
+	
+	"b = b && false";
+	b = b && false;
+	
+	"b = f() && false";
+	b = f() && false;
+	
+	"b = false && b";
+	b = false && b;
+	
+	"b = false && f()";
+	b = false && f();
+	
+	"b = b && true";
+	b = b && true;
+	
+	"b = true && b";
+	b = true && b;
+	
+	"b = b && b";
+	b = b && b;
+	
+	return 0;
+}

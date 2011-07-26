@@ -1,0 +1,28 @@
+// project euler #5
+
+boolean divisible(int n);
+
+int main()
+{
+    var n = 20;
+    while (n > 0) {
+        if (divisible(n)) {
+            print n;
+            return 0;
+        }
+        n = n + 20;
+    }
+    return 1;
+}
+
+boolean divisible(int n)
+{
+    var i = 20;
+    while (i > 10) {
+        if (n % i != 0) {
+            return false;
+        }
+        --i;
+    }
+    return true;
+}

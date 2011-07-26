@@ -1,0 +1,13 @@
+int main()
+{
+	int x;
+	boolean b;
+	
+	"b = 1 < 2";
+	b = 1 < 2;
+	
+	"b = x < x";
+	b = x < x;
+	
+	return 0;
+}

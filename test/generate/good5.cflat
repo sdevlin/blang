@@ -1,0 +1,28 @@
+// project euler #14
+
+int main()
+{
+    int result;
+    int seqlen;
+    int maxseqlen;
+    int i = 1000000;
+    int n;
+    while (--i > 0) {
+        n = i;
+        seqlen = 1;
+        while (n != 1) {
+            if (n % 2 == 0) {
+                n = n / 2;
+            } else {
+                n = 3 * n + 1;
+            }
+            ++seqlen;
+        }
+        if (seqlen > maxseqlen) {
+            maxseqlen = seqlen;
+            result = i;
+        }
+    }
+    print result;
+    return 0;
+}
