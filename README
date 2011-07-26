@@ -1,4 +1,4 @@
-This is a simple compiler for a toy C-like language. This is the compiler I was supposed to write for my compilers class in spring 2006. I finally got around to it on a few random weekends in 2010 and 2011.
+This is a simple compiler for a toy C-like language. It is built in C using Flex and Bison to generate the lexer and parser. This is the compiler I was supposed to write for my compilers class in spring 2006. I finally got around to it on a few random weekends in 2010 and 2011.
 
 Information about the language is available here: http://www.cse.nd.edu/~dthain/courses/cse40243/fall2008/
 
