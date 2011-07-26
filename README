@@ -11,3 +11,5 @@ I've added a few modifications to the language description. My version supports 
 Another modification is a series of optimization passes. In particular, many constant expressions can be reduced, and some unused variables can be excised from the output assembly.
 
 The test dir contains a few test cases, but these are not close to being exhaustive. test/generate probably contains the most useful examples.
+
+(I should also note that the hash table implementation here was not written by me. It was provided as part of the assignment.)
