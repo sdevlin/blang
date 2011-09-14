@@ -60,7 +60,7 @@ parse.tab.o : parse.tab.c parse.tab.h
 	$(CC) $(CFLAGS) -D_GNU_SOURCE parse.tab.c
 
 parse.tab.c parse.tab.h : blang.y ast.h
-	bison -d -bparse -v --warnings=all blang.y
+	bison -d -bparse -v --warngins=all blang.y
 
 clobber : clean
 	rm -f blang runtime.a || true
